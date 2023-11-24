@@ -14,13 +14,13 @@ yarn add txt-trunc
 ## Usage
 
 ```javascript
-const txtTruncate = require("txt-trunc");
+const textTrunc = require("text-trunc");
 // OR
-import txtTruncate from "txt-trunc";
+import textTrunc from "text-trunc";
 
 const text = "your text";
 // arguments [text, length, options?]
-let truncate = txtTrunc(text, 5, {});
+let truncate = textTrunc(text, 5, {});
 ```
 
 # Parameter
