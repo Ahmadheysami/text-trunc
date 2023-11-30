@@ -2,6 +2,7 @@ module.exports = (text, length = 10, options = {}) => {
   const op = {
     start: options.start || 0,
     dots: options.dots || "...",
+    seperator: options.seperator || " ",
   };
 
   // Check if text is undefined
@@ -13,8 +14,8 @@ module.exports = (text, length = 10, options = {}) => {
     sliceText = splitText.slice(op.start, length),
     finalText = sliceText;
   if (op.dots) {
-    return `${finalText.join(" ")} ${op.dots}`;
+    return `${finalText.join(op.seperator)} ${op.dots}`;
   } else {
-    return `${finalText.join(" ")}`;
+    return `${finalText.join(op.seperator)}`;
   }
 };
