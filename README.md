@@ -42,9 +42,9 @@ The default value of this option is equal to 0 and it determines that the text t
 This option determines what character or characters should be placed at the end of the shortened text
 The default value of this option is equal to "..." which can be set as desired
 
-### options.seperator
+#### options.seperator
 
-In this option, you can put the final text between the words and characters of your opinion. The default value of this option is one character.
+In this option, any value you put will be placed instead of the space between the words
 
 ## License
 
